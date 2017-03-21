@@ -1,7 +1,7 @@
 
 <?php 
 
-namespace MichelDamasceno\Moip;
+namespace MichelDamasceno\Payment;
 
 class Moip{
 

@@ -1,6 +1,9 @@
 {
     "name": "michel/moip",
     "description": "Package Moip",
+    "license": "MIT",
+    "type" :"libary",
+    "version" :"1.2",
     "authors": [
         {
             "name": "Michel Damasceno",
@@ -14,7 +17,7 @@
     "autoload": {
         "classmap":["src/Micheldamasceno/Moip.php"],
         "psr-0": {
-            "MichelDamasceno\\Moip\\": "src/"
+            "MichelDamasceno\\Payment\\": "src/"
         }
     },
     "minimum-stability": "dev"
