@@ -3,7 +3,7 @@
     "description": "Package Moip",
     "license": "MIT",
     "type" :"libary",
-    "version" :"1.2",
+    "version" :"1.3",
     "authors": [
         {
             "name": "Michel Damasceno",
