@@ -1,0 +1,21 @@
+{
+    "name": "Michel/moip",
+    "description": "Package Moip",
+    "authors": [
+        {
+            "name": "Michel Damasceno",
+            "email": "michel-damasceno@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap":["src/Micheldamasceno/Moip.php"],
+        "psr-0": {
+            "MichelDamasceno\\Moip\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
