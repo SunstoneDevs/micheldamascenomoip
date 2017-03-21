@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4":{ 
-         "Micheldamasceno\\lib\\" : "src/micheldamasceno/lib"]
+         "Micheldamasceno\\lib\\" : ["src/micheldamasceno/lib"]
       }
     },
     "minimum-stability": "dev"
