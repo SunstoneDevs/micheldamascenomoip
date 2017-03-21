@@ -1,11 +1,11 @@
-
 <?php 
 
-namespace MichelDamasceno\Payment;
+namespace MicheDamasceno\Payment;
 
 class Moip{
-
-	static function Product(){
-		return "produto gerado com sucesso";
+	
+	public function Soma($vl1,$vl2)
+	{
+		return $vl1 + $vl2;
 	}
 }

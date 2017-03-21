@@ -1,5 +1,5 @@
 {
-    "name": "michel/moip",
+    "name": "micheldamasceno/moip",
     "description": "Package Moip",
     "license": "MIT",
     "type" :"libary",
@@ -15,7 +15,7 @@
         "illuminate/support": "4.2.*"
     },
     "autoload": {
-        "classmap":["src/Micheldamasceno/moip.php"]
+        "classmap":["src/micheldamasceno/moip.php"]
     },
     "minimum-stability": "dev"
 }
