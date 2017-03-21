@@ -1,4 +1,5 @@
 <?php
+ namespace MicheDamasceno\Payment;
 
 /**
  * Library to help PHP users of Moip's API
