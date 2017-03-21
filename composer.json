@@ -15,7 +15,9 @@
         "illuminate/support": "4.2.*"
     },
     "autoload": {
-        "classmap":["src/micheldamasceno/autoload.inc.php"]
+        "psr-4":{ 
+         "Micheldamasceno\\lib\\" : "src/micheldamasceno/lib"]
+      }
     },
     "minimum-stability": "dev"
 }
