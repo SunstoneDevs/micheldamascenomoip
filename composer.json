@@ -15,10 +15,7 @@
         "illuminate/support": "4.2.*"
     },
     "autoload": {
-        "classmap":["src/Micheldamasceno/Moip.php"],
-        "psr-0": {
-            "MichelDamasceno\\Payment\\": "src/"
-        }
+        "classmap":["src/Micheldamasceno/moip.php"]
     },
     "minimum-stability": "dev"
 }
