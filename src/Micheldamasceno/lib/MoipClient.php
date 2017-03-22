@@ -1,4 +1,4 @@
-<?php
+<?php namespace Micheldamasceno\lib;
 
 /**
  * MoIP's API connection class

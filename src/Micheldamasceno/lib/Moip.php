@@ -177,6 +177,10 @@ class Moip {
 			return mb_convert_encoding($text, $this->encoding, 'UTF-8');
 		}
 	}
+    public function Somar($vl1 , $vl2){
+            return $vl1 + $vl2;
+    }
+
     /**
      * Method initXMLObject()
      *
@@ -186,7 +190,7 @@ class Moip {
      * @access private
      */
     private function initXMLObject() {
-        $this->xml = new SimpleXmlElement('<?xml version="1.0" encoding="utf-8" ?><EnviarInstrucao></EnviarInstrucao>');
+        $this->xml = new \SimpleXmlElement('<?xml version="1.0" encoding="utf-8" ?><EnviarInstrucao></EnviarInstrucao>');
         $this->xml->addChild('InstrucaoUnica');
     }
     /**
@@ -657,7 +661,7 @@ class Moip {
             if ($return_xml_as_string) {
                 return $this->answer->xml;
             }
-            $xml = new SimpleXmlElement($this->answer->xml);
+            $xml = new \SimpleXmlElement($this->answer->xml);
             return new MoipResponse(array(
 				'response' => $xml->Resposta->Status == 'Sucesso' ? true : false,
     			'error' => $xml->Resposta->Status == 'Falha' ? $this->convert_encoding((string)$xml->Resposta->Erro) : false,
